@@ -2,7 +2,7 @@
 document.getElementById("Fill").onclick = function()
 {
 	let firstValue = document.getElementById("rate1").value;
-	for(let i = 1; i < 21; i++)
+	for(let i = 1; i < 16; i++)
 	{
 		let idIndex = (i).toString();
 		let idValue = "rate"+idIndex;
@@ -13,7 +13,7 @@ document.getElementById("Fill").onclick = function()
 
 document.getElementById("Calc").onclick = function()
 {
-	for(let i = 1; i < 21; i++)
+	for(let i = 1; i < 16; i++)
 	{
 		let idIndex = (i).toString();
 		let idValue = "rate"+idIndex;
